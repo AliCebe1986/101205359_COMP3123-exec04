@@ -6,8 +6,8 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/user', (req, res) => {
-  const firstname = req.query.firstname || 'Pritesh';
-  const lastname = req.query.lastname || 'Patel';
+  const firstname = req.query.firstname || 'Ali';
+  const lastname = req.query.lastname || 'Cebe';
   res.json({ firstname, lastname });
 });
 
